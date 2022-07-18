@@ -1,0 +1,195 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	max-width: 1200px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+/*****TEXT STYLES*****/
+
+h1,
+h2,
+h3 {
+	color: black;
+	font-weight: 700;
+	text-transform: uppercase;	
+}
+
+h1 {
+	font-size: 1.875em;
+}
+
+h2 {
+	font-size: 1.125em;
+}
+
+h3 {
+	font-size: .75em;
+}
+
+p {
+	font-size: .875em;
+	line-height: 21px;
+	padding: 0 30px;
+}
+
+/*The widths are in a percentage!*/
+
+/*****HEADER*****/
+
+header {
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	padding: 38px 0;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+/*****NAVIGATION*****/
+
+header nav {
+	padding: 46px 0;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	display: inline;
+	font-size: 1.25em;
+	font-weight: 700;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+header nav ul li a {
+	color:#77a466;
+	text-decoration: none;
+}
+
+/*The widths are in a percentage!*/
+
+/*****TOP AND BOTTOM SECTIONS*****/
+
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*.main-image {
+	
+}*/
+
+.main-image img {
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+	width: 100%;
+}
+
+/*.main-title {
+	
+}*/
+
+.main-title h2 {
+	color: #77a466;
+	padding: 5px 0;
+	text-align: left;
+}
+
+.main-title p {
+	font-size: 1em;
+	line-height: 25px;
+	padding: 0;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	border-top: 1px solid #eee;
+	width: 33%;
+}
+
+.section-one h3 {
+	padding: 10px 0;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.section-two h3,
+.section-three h3 {
+	padding: 10px 30px;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+
+.menu li {
+	color:#77a466;
+	padding: 10px 0;	
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 21px;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 24px;
+}
+
+/*The widths are in a percentage!*/
+
+/*****FOOTER*****/
+
+footer {
+	border-top: 3px solid #eee;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer span {
+	color: #77a466;
+	font-family: 'Galada', cursive;
+	font-size: .875em;
+	text-transform: lowercase;	
+}
+
+/***MEDIA QUERIES FOR RESPONSIVE DESIGN***/
+
